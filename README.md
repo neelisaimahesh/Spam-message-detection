@@ -20,21 +20,20 @@ This project is designed to help detect spam messages automatically. It uses a t
 - **Database**: SQLite (default Django database)
 
 ## ⚙️ Installation Instructions
-1️⃣ Clone the repository
-bash
-git clone https://github.com/TechWithVP/spam-message-detection-with-python-and-django.git
 2️⃣ Create and activate a virtual environment
+
 python -m venv env
 source env/bin/activate  # For Linux/Mac
 # OR
 env\Scripts\activate  # For Windows
 3️⃣ Install dependencies
+
 pip install -r requirements.txt
 4️⃣ Apply Migrations
+
 python manage.py migrate
 5️⃣ Run the development server
+bash
+
 python manage.py runserver
 👉 Open your browser and navigate to: http://127.0.0.1:8000/
-cd spam-message-detection-with-python-and-django
-
-2️⃣ Create and activate a virtual environment
